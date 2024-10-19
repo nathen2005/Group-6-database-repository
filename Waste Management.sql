@@ -32,13 +32,3 @@ ContactdetailsforStaff INT
 Alter Table Client
 ADD ClientEmail VARCHAR(255);
 ADD Estate VARCHAR(255);
-
-Create Table Payments(
-PaymentID INT,
-ClientID INT,
-Typeofwastecollected VARCHAR(255),
-Pointsearned INT
-)
-
-ALTER TABLE Recycling
-ADD Pointsearned INT;
