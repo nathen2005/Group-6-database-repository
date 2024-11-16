@@ -22,6 +22,6 @@ VALUES
 -- Insert data into the Recycling table
 INSERT INTO Recycling (Typeofwastecollected, Dateofcollection, AddressID, ClientID)
 VALUES
-  ('Paper', 20231111, 101, 1),
-  ('Plastic', 20231112, 102, 2),
-  ('Glass', 20231113, 103, 3);
+  ('Paper', 20231111, 101, 10),
+  ('Plastic', 20231112, 102, 11),
+  ('Glass', 20231113, 103, 12);
