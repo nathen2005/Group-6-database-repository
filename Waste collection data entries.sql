@@ -1,9 +1,9 @@
 -- Insert data into the Client table
 INSERT INTO Client (ClientID, ClientName, AddressID, City, ContactDetailsforClient)
 VALUES
-  (10, 'Company A', 101, 'Madaraka', 0734567890),
-  (11, 'Company B', 102, 'South  B', 0776543210),
-  (12, 'Company C', 103, 'Nairobi We', 0755555555);
+  (10, 'Mzee Duale', 101, 'Madaraka', 0734567890),
+  (11, 'Nguma Maikoli', 102, 'South  B', 0776543210),
+  (12, 'Simbs Mcheshi', 103, 'Nairobi We', 0755555555);
 
 -- Insert data into the Staff table
 INSERT INTO Staff (StaffID, StaffName, ContactdetailsforStaff)
